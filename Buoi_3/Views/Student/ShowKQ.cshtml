@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Kết quả đăng ký";
+}
+
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+    <div class="alert alert-success">
+        <p>Cảm ơn bạn <strong>@ViewBag.MSSV</strong> - <strong>@ViewBag.HoTen</strong> đã đăng ký chuyên ngành <strong>@ViewBag.ChuyenNganh</strong>.</p>
+        <p>Số lượng sinh viên đã đăng ký ngành giống bạn là: <strong>@ViewBag.SoLuongCungNganh</strong>.</p>
+    </div>
+    <div>
+        <a asp-action="Index" asp-controller="Student" class="btn btn-secondary">Quay lại trang đăng ký</a>
+    </div>
+</div>

@@ -1,0 +1,116 @@
+/* Base font size for responsiveness */
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Focus states for accessibility */
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* Ensure body has space for footer */
+body {
+  margin-bottom: 60px;
+  font-family: 'Arial', sans-serif; /* Cleaner font for better readability */
+}
+
+/* Container for centering content */
+.container {
+  max-width: 600px; /* Limit width for better readability */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Styling for headings */
+h2 {
+  color: #4b0082; /* Purple color to match the header in the image */
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Form styling */
+.form-group {
+  margin-bottom: 1.5rem; /* More spacing between form fields */
+}
+
+.form-group label {
+  font-weight: bold; /* Make labels stand out */
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded corners for inputs */
+  border: 1px solid #ced4da;
+  padding: 10px;
+  transition: border-color 0.3s ease; /* Smooth transition for focus */
+}
+
+.form-control:focus {
+  border-color: #258cfb; /* Match focus color with the theme */
+}
+
+/* Styling for validation messages */
+.text-danger {
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #4b0082; /* Purple to match the theme */
+  border-color: #4b0082;
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5e00a1; /* Slightly lighter purple on hover */
+  border-color: #5e00a1;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+}
+
+/* Styling for the result page alert */
+.alert-success {
+  background-color: #d4edda; /* Light green background */
+  border-color: #c3e6cb;
+  color: #155724;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* Link styling for the return button */
+a.btn {
+  text-decoration: none; /* Remove underline from button links */
+}
+
+/* Horizontal rule styling */
+hr {
+  border-top: 1px solid #dee2e6;
+  margin: 20px 0;
+}
