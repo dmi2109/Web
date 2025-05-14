@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BT3
 build_property.RootNamespace = BT3
-build_property.ProjectDir = /Users/dieumi/development/web/BTBuoi3/
+build_property.ProjectDir = /Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/dieumi/development/web/BTBuoi3
+build_property.MSBuildProjectDirectory = /Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = RXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Student/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9JbmRleC5jc2h0bWw=
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Student/ShowKQ.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU3R1ZGVudC9TaG93S1EuY3NodG1s
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Student/ShowKQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = U2hvd0tRLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/dieumi/development/web/BTBuoi3/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+[/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = X0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-y61fe1kv0j

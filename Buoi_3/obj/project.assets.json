@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dieumi/development/web/BTBuoi3/BT3.csproj",
+      "projectUniqueName": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/BT3.csproj",
       "projectName": "BT3",
-      "projectPath": "/Users/dieumi/development/web/BTBuoi3/BT3.csproj",
+      "projectPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/BT3.csproj",
       "packagesPath": "/Users/dieumi/.nuget/packages/",
-      "outputPath": "/Users/dieumi/development/web/BTBuoi3/obj/",
+      "outputPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_3/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dieumi/.nuget/NuGet/NuGet.Config"
