@@ -1,0 +1,11 @@
+@model Book
+<h2>Thêm sách</h2>
+<form asp-action="Create" method="post">
+    <div><label>Tên sách:</label><input asp-for="Title" /></div>
+    <div><label>Tác giả:</label><input asp-for="Author" /></div>
+    <div><label>Giá:</label><input asp-for="Price" /></div>
+    <div><label>Mô tả:</label><textarea asp-for="Description"></textarea></div>
+    <div><label>Hình ảnh:</label><input asp-for="Image" /></div>
+    <div><label>Thể loại:</label><select asp-items="ViewBag.Categories" asp-for="CategoryId"></select></div>
+    <button type="submit">Lưu</button>
+</form>

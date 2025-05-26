@@ -1,0 +1,53 @@
+@model List<Book>
+@{
+    ViewData["Title"] = "Danh sách sách";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Danh sách sách</h2>
+    <div class="row">
+        <!-- Sidebar bên trái cho lọc thể loại -->
+        <div class="col-md-3">
+            <div class="card shadow-sm p-3">
+                <h5 class="card-title">Lọc theo thể loại</h5>
+                <select id="categoryFilter" class="form-select" onchange="location.href='@Url.Action("Index")/?categoryName=' + this.value">
+                    <option value="">Tất cả</option>
+                    @foreach (var cat in ViewBag.Categories)
+                    {
+                        // Sử dụng asp-selected để đặt trạng thái selected
+                        <option value="@cat.CategoryName" asp-selected="@(ViewBag.SelectedCategory == cat.CategoryName)">@cat.CategoryName</option>
+                    }
+                </select>
+            </div>
+        </div>
+
+        <!-- Danh sách sách bên phải -->
+        <div class="col-md-9">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                @if (Model != null && Model.Any())
+                {
+                    @foreach (var book in Model)
+                    {
+                        <div class="col">
+                            <div class="card h-100 shadow-sm">
+                                <img src="@book.Image" class="card-img-top" alt="@book.Title" style="height: 300px; object-fit: cover;">
+                                <div class="card-body">
+                                    <h5 class="card-title">@book.Title</h5>
+                                    <p class="card-text">Tác giả: @book.Author</p>
+                                    <p class="card-text">Thể loại: @book.Category.CategoryName</p>
+                                    <p class="card-text text-danger fw-bold">@book.Price.ToString("N0") VNĐ</p>
+                                    <a href="@Url.Action("Details", new { id = book.Id })" class="btn btn-primary btn-sm">Chi tiết</a>
+                                    <a href="@Url.Action("Delete", new { id = book.Id })" class="btn btn-danger btn-sm">Xóa</a>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <p>Không có sách nào để hiển thị.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>
