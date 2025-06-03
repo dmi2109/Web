@@ -1,0 +1,20 @@
+@model Buoi_6.Models.Category
+
+<div class="card p-4">
+    <h2 class="mb-4 fw-bold text-dark">Thêm danh mục mới</h2>
+    <form asp-action="Add" method="post" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Tên danh mục</label>
+            <input asp-for="Name" class="form-control" placeholder="Nhập tên danh mục" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Thêm danh mục</button>
+            <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

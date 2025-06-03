@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oOisIxEr1uI=",
+  "dgSpecHash": "xhixI1R1/Ls=",
   "success": true,
-  "projectFilePath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/Buoi_5.csproj",
+  "projectFilePath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/Buoi_5.csproj",
   "expectedPackageFiles": [
     "/Users/dieumi/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/Users/dieumi/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",

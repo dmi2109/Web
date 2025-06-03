@@ -4717,11 +4717,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/Buoi_5.csproj",
+      "projectUniqueName": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/Buoi_5.csproj",
       "projectName": "Buoi_5",
-      "projectPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/Buoi_5.csproj",
+      "projectPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/Buoi_5.csproj",
       "packagesPath": "/Users/dieumi/.nuget/packages/",
-      "outputPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/obj/",
+      "outputPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_5/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dieumi/.nuget/NuGet/NuGet.Config"

@@ -1,0 +1,14 @@
+@model Buoi_6.Models.Category
+
+<div class="card p-4">
+    <h2 class="mb-4 fw-bold text-danger">Xóa danh mục</h2>
+    <div class="alert alert-warning" role="alert">
+        <strong>Cảnh báo!</strong> Bạn có chắc chắn muốn xóa danh mục 
+        <span class="fw-bold">@Model.Name</span> không? Hành động này không thể hoàn tác.
+    </div>
+    <form asp-action="DeleteConfirmed" method="post" class="d-flex gap-2">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>

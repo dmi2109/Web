@@ -1,0 +1,24 @@
+@model IEnumerable<Buoi_6.Models.Category>
+
+<div class="mb-4">
+    <h2 class="fw-bold text-dark">Quản lý danh mục</h2>
+    <a asp-action="Add" class="btn btn-primary mt-2">Thêm danh mục mới</a>
+</div>
+
+<div class="row g-4">
+    @foreach (var category in Model)
+    {
+        <div class="col-md-4 col-sm-6">
+            <div class="card h-100">
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title fw-bold">@category.Name</h5>
+                    <div class="mt-auto d-flex gap-2">
+                        <a asp-action="Display" asp-route-id="@category.Id" class="btn btn-sm btn-info">Xem</a>
+                        <a asp-action="Update" asp-route-id="@category.Id" class="btn btn-sm btn-warning">Sửa</a>
+                        <a asp-action="Delete" asp-route-id="@category.Id" class="btn btn-sm btn-danger">Xóa</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

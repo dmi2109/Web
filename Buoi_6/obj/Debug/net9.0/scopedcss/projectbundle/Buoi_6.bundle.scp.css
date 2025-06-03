@@ -1,0 +1,225 @@
+/* _content/Buoi_6/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-yfga7hndzs] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-yfga7hndzs] {
+  color: #0077cc;
+}
+
+.btn-primary[b-yfga7hndzs] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-yfga7hndzs],
+.nav-pills .show>.nav-link[b-yfga7hndzs] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-yfga7hndzs] {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-yfga7hndzs] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-yfga7hndzs] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-yfga7hndzs] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-yfga7hndzs] {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}
+
+body[b-yfga7hndzs] {
+  background-color: #f4f7fa;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-custom[b-yfga7hndzs] {
+  background-color: #2c3e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand[b-yfga7hndzs],
+.navbar-custom .nav-link[b-yfga7hndzs] {
+  color: #ecf0f1 !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover[b-yfga7hndzs] {
+  color: #3498db !important;
+}
+
+.navbar-custom .nav-link.active[b-yfga7hndzs] {
+  color: #3498db !important;
+  font-weight: 600;
+}
+
+.card[b-yfga7hndzs] {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover[b-yfga7hndzs] {
+  transform: translateY(-5px);
+}
+
+.btn-primary[b-yfga7hndzs] {
+  background-color: #3498db;
+  border-color: #3498db;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover[b-yfga7hndzs] {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.btn-secondary[b-yfga7hndzs] {
+  background-color: #7f8c8d;
+  border-color: #7f8c8d;
+  border-radius: 8px;
+}
+
+.btn-danger[b-yfga7hndzs] {
+  border-radius: 8px;
+}
+
+footer[b-yfga7hndzs] {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.container[b-yfga7hndzs] {
+  max-width: 1200px;
+}
+
+.form-control[b-yfga7hndzs],
+.form-select[b-yfga7hndzs] {
+  border-radius: 8px;
+  border: 1px solid #d1d9e6;
+  padding: 10px;
+}
+
+.form-label[b-yfga7hndzs] {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.card-img-top[b-yfga7hndzs] {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+body[b-yfga7hndzs] {
+  background-color: #f4f7fa;
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-custom[b-yfga7hndzs] {
+  background-color: #2c3e50;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-brand[b-yfga7hndzs],
+.navbar-custom .nav-link[b-yfga7hndzs] {
+  color: #ecf0f1 !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-custom .nav-link:hover[b-yfga7hndzs] {
+  color: #3498db !important;
+}
+
+.navbar-custom .nav-link.active[b-yfga7hndzs] {
+  color: #3498db !important;
+  font-weight: 600;
+}
+
+.card[b-yfga7hndzs] {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover[b-yfga7hndzs] {
+  transform: translateY(-5px);
+}
+
+.btn-primary[b-yfga7hndzs] {
+  background-color: #3498db;
+  border-color: #3498db;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover[b-yfga7hndzs] {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}
+
+.btn-secondary[b-yfga7hndzs] {
+  background-color: #7f8c8d;
+  border-color: #7f8c8d;
+  border-radius: 8px;
+}
+
+.btn-danger[b-yfga7hndzs] {
+  border-radius: 8px;
+}
+
+footer[b-yfga7hndzs] {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.container[b-yfga7hndzs] {
+  max-width: 1200px;
+}
+
+.form-control[b-yfga7hndzs],
+.form-select[b-yfga7hndzs] {
+  border-radius: 8px;
+  border: 1px solid #d1d9e6;
+  padding: 10px;
+}
+
+.form-label[b-yfga7hndzs] {
+  font-weight: 500;
+  color: #2c3e50;
+}
+
+.card-img-top[b-yfga7hndzs] {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
