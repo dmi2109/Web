@@ -8064,11 +8064,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_6/Buoi_6.csproj",
+      "projectUniqueName": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_6/Buoi_6.csproj",
       "projectName": "Buoi_6",
-      "projectPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_6/Buoi_6.csproj",
+      "projectPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_6/Buoi_6.csproj",
       "packagesPath": "/Users/dieumi/.nuget/packages/",
-      "outputPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_6/obj/",
+      "outputPath": "/Users/dieumi/Documents/Tài liệu môn học/LTWeb/BTVN/Buoi_6/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/dieumi/.nuget/NuGet/NuGet.Config"

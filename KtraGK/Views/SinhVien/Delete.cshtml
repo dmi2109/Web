@@ -1,0 +1,19 @@
+@model KtraGK.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Xoá sinh viên";
+}
+
+<h2 class="text-center text-danger mb-4">🗑️ Xác nhận xoá sinh viên</h2>
+
+<div class="alert alert-warning text-center">
+    Bạn có chắc chắn muốn xoá sinh viên <strong>@Model.HoTen</strong> (Mã: <strong>@Model.MaSV</strong>) không?
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="MaSV" />
+    <div class="text-center">
+        <button type="submit" class="btn btn-danger">Xoá</button>
+        <a asp-action="Index" class="btn btn-secondary">Huỷ</a>
+    </div>
+</form>

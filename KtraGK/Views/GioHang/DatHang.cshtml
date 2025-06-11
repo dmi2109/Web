@@ -1,0 +1,48 @@
+@{
+    ViewData["Title"] = "Xác Nhận Đăng Ký";
+    var sv = ViewBag.SinhVien as SinhVien;
+    var cart = ViewBag.GioHang as List<HocPhan>;
+    int tongTinChi = cart.Sum(hp => hp.SoTinChi);
+}
+
+<h2 class="text-center mb-4">📋 Xác Nhận Đăng Ký Học Phần</h2>
+
+<div class="row">
+    <div class="col-md-7">
+        <h5 class="fw-bold">📘 Danh sách học phần</h5>
+        <table class="table table-bordered text-center">
+            <thead class="table-secondary">
+                <tr>
+                    <th>Mã HP</th>
+                    <th>Tên Học Phần</th>
+                    <th>Số Tín Chỉ</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hp in cart)
+                {
+                    <tr>
+                        <td>@hp.MaHP</td>
+                        <td>@hp.TenHP</td>
+                        <td>@hp.SoTinChi</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p class="text-danger">📌 Tổng tín chỉ: <strong>@tongTinChi</strong></p>
+    </div>
+
+    <div class="col-md-5">
+        <h5 class="fw-bold">👤 Thông tin sinh viên</h5>
+        <p><strong>Mã số sinh viên:</strong> @sv.MaSV</p>
+        <p><strong>Họ tên:</strong> @sv.HoTen</p>
+        <p><strong>Ngày sinh:</strong> @sv.NgaySinh.ToShortDateString()</p>
+        <p><strong>Ngành học:</strong> @sv.NganhHoc?.TenNganh</p>
+        <p><strong>Ngày đăng ký:</strong> @DateTime.Now.ToShortDateString()</p>
+
+        <form asp-action="LuuDangKy" method="post" class="mt-3">
+            <button type="submit" class="btn btn-success w-100">✅ Xác Nhận</button>
+        </form>
+        <a asp-action="GioHang" class="btn btn-link mt-2 d-block text-center">⬅️ Quay lại giỏ hàng</a>
+    </div>
+<

@@ -1,0 +1,58 @@
+@model KtraGK.Models.SinhVien
+
+@{
+    ViewData["Title"] = "Thêm sinh viên";
+}
+
+<h2 class="text-center mb-4">🧑‍🎓 Thêm sinh viên</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label asp-for="MaSV" class="form-label">Mã SV</label>
+        <input asp-for="MaSV" class="form-control" />
+        <span asp-validation-for="MaSV" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="HoTen" class="form-label">Họ Tên</label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="GioiTinh" class="form-label">Giới Tính</label>
+        <select asp-for="GioiTinh" class="form-select">
+            <option value="">-- Chọn giới tính --</option>
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NgaySinh" class="form-label">Ngày Sinh</label>
+        <input asp-for="NgaySinh" type="date" class="form-control" />
+        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ảnh sinh viên</label>
+        <input type="file" name="UploadedImage" class="form-control" />
+        <!-- Không dùng asp-for vì UploadedImage không phải property trong model -->
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="MaNganh" class="form-label">Ngành học</label>
+        <select asp-for="MaNganh" asp-items="ViewBag.NganhList" class="form-select">
+            <option value="">-- Chọn ngành học --</option>
+        </select>
+        <span asp-validation-for="MaNganh" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">💾 Lưu</button>
+    <a asp-action="Index" class="btn btn-secondary">❌ Huỷ</a>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

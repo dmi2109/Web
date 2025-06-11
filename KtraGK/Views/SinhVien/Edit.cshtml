@@ -1,0 +1,65 @@
+@model SinhVien
+@{
+    ViewData["Title"] = "Sửa sinh viên";
+}
+
+<h2 class="text-center mb-4">✏️ Cập nhật thông tin sinh viên</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="MaSV" />
+
+    <div class="mb-3">
+        <label class="form-label">Mã sinh viên</label>
+        <input asp-for="MaSV" class="form-control" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Họ tên</label>
+        <input asp-for="HoTen" class="form-control" />
+        <span asp-validation-for="HoTen" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Giới tính</label>
+        <select asp-for="GioiTinh" class="form-select">
+            <option value="">-- Chọn giới tính --</option>
+            <option value="Nam">Nam</option>
+            <option value="Nữ">Nữ</option>
+        </select>
+        <span asp-validation-for="GioiTinh" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ngày sinh</label>
+        <input asp-for="NgaySinh" type="date" class="form-control" />
+        <span asp-validation-for="NgaySinh" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ảnh hiện tại</label><br />
+        <img src="@Model.Hinh" alt="Ảnh sinh viên" width="120" class="rounded shadow-sm" />
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tải ảnh mới</label>
+        <input type="file" name="UploadedImage" class="form-control" />
+        <!-- KHÔNG dùng asp-for="UploadedImage" -->
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Ngành học</label>
+        <select asp-for="MaNganh" asp-items="ViewBag.NganhList" class="form-select">
+            <option value="">-- Chọn ngành học --</option>
+        </select>
+        <span asp-validation-for="MaNganh" class="text-danger"></span>
+    </div>
+
+    <div class="mt-4 text-center">
+        <button type="submit" class="btn btn-primary">💾 Lưu thay đổi</button>
+        <a asp-action="Index" class="btn btn-secondary ms-2">🔙 Trở lại</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

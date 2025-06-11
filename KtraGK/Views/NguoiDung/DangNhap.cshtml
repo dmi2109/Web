@@ -1,0 +1,22 @@
+@{
+    ViewData["Title"] = "Đăng nhập";
+}
+
+<h2 class="text-center">ĐĂNG NHẬP</h2>
+
+<form asp-action="DangNhap" method="post" class="w-50 mx-auto">
+    <div class="form-group mb-3">
+        <label for="maSV">MãSV</label>
+        <input type="text" name="maSV" class="form-control" placeholder="Nhập mã sinh viên" />
+    </div>
+    <div class="text-center">
+        <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+    </div>
+</form>
+
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="text-danger text-center mt-2">
+        @Html.ValidationSummary()
+    </div>
+}
